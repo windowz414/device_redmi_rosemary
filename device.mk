@@ -88,6 +88,7 @@ PRODUCT_COPY_FILES += \
 
 # SoundTrigger
 PRODUCT_PACKAGES += \
+    android.hardware.soundtrigger@2.0-impl \
     android.hardware.soundtrigger@2.3-impl
 
 # CAS
@@ -201,6 +202,10 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.keyinstall@1.0.vendor \
     vendor.mediatek.hardware.keymaster_attestation@1.0.vendor \
     vendor.mediatek.hardware.keymaster_attestation@1.1.vendor
+
+# Keystore
+PRODUCT_PACKAGES += \
+    android.system.keystore2
 
 # Health
 PRODUCT_PACKAGES += \
